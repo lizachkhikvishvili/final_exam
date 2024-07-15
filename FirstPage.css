@@ -1,0 +1,38 @@
+.NewsList {
+    text-align: left;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.FirstRow, .fetchedDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-direction: row;
+}
+.id {
+    flex: 1;
+    text-align: left;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
+.title, .category, .likes, .dateUpdated, .dateCreated{
+    flex: 1;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+.CreationButton, .DeletionButton, .UpdateButton {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: grey;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.line1 {
+    width: 98%;
+    margin-left: 1%;
+}

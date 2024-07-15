@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CreatePage.css">
+    <title>Update an article</title>
+</head>
+<body>
+    <h1 class="createNewsHeader">Update News</h1>
+
+    <form id="NewsUpdate"> 
+        <div>
+            <label for="typeInTitle" class="title">Title</label>
+            <br>
+            <input type="text" id="typeInTitle" class="typeInTitle" required>
+            <br>
+        </div>
+
+        <div>
+            <label for="typeInDesc" id="Desc" class="Desc">Description</label>
+            <br>
+            <input type="text" id="typeInDesc" class="typeInDesc" required>
+        </div>
+
+        <div class="chooseCategory">
+            <label for="categorySelection" class="Category">Category</label>
+            <br>
+            <select id="categorySelection" name="category"  class="categorySelection" required>
+                <option value="">Choose an option</option>
+                <option value="Science">Science</option>
+                <option value="Lifestyle">Lifestyle</option>
+                <option value="Politics">Politics</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+        </div>
+
+        <div class="twoDivs">
+            <div>
+                <label for="editorFirstName" class="firstName">Editor FirstName</label>
+                <br>
+                <input type="text" id="editorFirstName" class="firstNaame" required>
+                <br>
+            </div>
+            <div>
+                <label for="editorLastName" class="lastName">Editor LastName</label>
+                <br>
+                <input type="text" id="editorLastName" class="lastName" required>
+                <br>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a href="FirstPage.html"><button type="button" class="cancelButton">Cancel</button></a>
+            <button type="submit" class="updateButton">Update</button>
+        </div>
+
+    </form>
+
+    <script src="Update.js"></script>
+   
+</body>
+</html>

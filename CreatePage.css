@@ -1,0 +1,126 @@
+.createNewsHeader{
+    margin-top: 43px;
+    margin-left: 45px;
+}
+.title {
+    font-weight: bold;
+    height: 24px;
+    width: 223px;
+    margin-left: 70px;
+    top: 181px;
+}
+.typeInTitle{
+    width: 333px;
+    height: 45px;
+    margin-left: 70px;
+    border-radius: 8px;
+    border: 1px solid black;
+    top: 205px;
+}
+#Desc{
+    margin-top: 50px;
+}
+.Desc{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    width: 223px;
+    margin-left: 70px;
+    height: 24px;
+    top: 273px;
+}
+.typeInDesc{
+    width: 687px;
+    height: 182px;
+    margin-left: 70px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.chooseCategory{
+    width: 333px;
+    height: 45px;
+    top: 510px;
+    margin-left: 70px;
+}
+.Category{
+    font-weight: bold;
+    width: 223px;
+    height: 24px;
+    top: 510px;
+}
+.categorySelection{
+    width: 333px;
+    height: 45px;
+    border-radius:8px ;
+    border: 1px solid black;
+    top: 534px;
+}
+.twoDivs{
+    display: flex;
+    flex-direction: row;
+    top: 610px;
+    top: 610px;
+    margin-top: 30px;
+}
+.firstName{
+    margin-left: 70px;
+    font-weight: bold;
+    height: 24px;
+    width: 223px;
+}
+.firstNaame{
+    margin-left: 70px;
+    width: 333px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.lastName{
+    left: 424px;
+    font-weight: bold;
+    height: 24px;
+    width: 223px;
+}
+.lastNaame{
+    left: 424px;
+    width: 333px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.buttons{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 350px;
+
+}
+.cancelButton{
+    width: 121px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 8px
+}
+.saveButton{
+    width: 121px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 8px
+}
+.updateButton{
+    width: 121px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 8px   
+}
+
+.descMarg{
+    margin-top: 20px;
+}
